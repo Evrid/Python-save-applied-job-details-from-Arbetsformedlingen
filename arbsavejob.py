@@ -22,9 +22,9 @@ def scrape_and_save_job_info(url, excel_filename='+Applied jobs.xlsx'):
         soup = BeautifulSoup(html_content, 'html.parser')
         
         # Extract information
-        job_name = soup.find('h1').text if soup.find('h1') else "N/A"
-        company_name = soup.find('h2').text if soup.find('h2') else "N/A"
-        job_type = soup.find('h3').text if soup.find('h3') else "N/A"
+        job_name = soup.find('h1').text if soup.find('h1') else "N/A"   #job name
+        company_name = soup.find('h2').text if soup.find('h2') else "N/A"  #Company Name
+        job_type = soup.find('h3').text if soup.find('h3') else "N/A"  #job_type
         
         # Finding second h3 for location
         h3_tags = soup.find_all('h3')
