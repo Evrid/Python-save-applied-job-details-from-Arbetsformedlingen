@@ -2,7 +2,9 @@
 
 
 Cd C:\Users\YS\Desktop\Python automatic scraping job
+
 python arbsavejob.py       
+
 
 Example given link:
 https://arbetsformedlingen.se/platsbanken/annonser/27968814          
