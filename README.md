@@ -63,6 +63,7 @@ element = WebDriverWait(driver, 10).until(
 
 
 why the result of soup is different of what i see using F12?
+
 When you inspect a webpage using the browser's developer tools (F12), you're often seeing the final, rendered HTML, which includes modifications made by JavaScript running on the page. The HTML content you get using Python's requests library is the raw HTML content that comes from the server, before any client-side JavaScript has been applied.
 If the content you're interested in is being loaded or modified using JavaScript, you might need to use a different approach, such as using Selenium which allows you to scrape websites by controlling a web browser.
 
