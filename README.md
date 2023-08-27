@@ -25,10 +25,15 @@ Steps
 First we add python to environment variables
 
 pip install pandas
+
 pip install requests
+
 pip install beautifulsoup4
+
 pip install openpyxl
+
 pip install selenium
+
 
 Indentation
 
