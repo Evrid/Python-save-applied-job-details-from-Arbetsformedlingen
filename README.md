@@ -6,7 +6,7 @@
 You give it a link of job you applied on Arbetsformedlingen, then it will save the Job Name,Company Name,Job Type,Location,AppliedDate to an excel, also save the html of the job to the folder.
 
 
-How to use:
+**How to use:**
 first cd to your folder, in my case:
 
 Cd C:\Users\YS\Desktop\Python automatic scraping job
@@ -20,7 +20,7 @@ Example given link:
 https://arbetsformedlingen.se/platsbanken/annonser/27968814          
 
 
-Steps
+**Steps**
 
 First we add python to environment variables
 
@@ -35,7 +35,7 @@ pip install openpyxl
 pip install selenium
 
 
-Indentation
+**Indentation**
 
 Indentation: Python is very sensitive to indentation, and it looks like the indentation is inconsistent. For example, the comment "Send a request to the URL" should be aligned with the code below it, not ahead of it. This might raise an indentation error.
 We can ask ChatGPT to fix the indentation 
@@ -62,7 +62,7 @@ element = WebDriverWait(driver, 10).until(
 
 
 
-why the result of soup is different of what i see using F12?
+**why the result of soup is different of what i see using F12?**
 
 When you inspect a webpage using the browser's developer tools (F12), you're often seeing the final, rendered HTML, which includes modifications made by JavaScript running on the page. The HTML content you get using Python's requests library is the raw HTML content that comes from the server, before any client-side JavaScript has been applied.
 If the content you're interested in is being loaded or modified using JavaScript, you might need to use a different approach, such as using Selenium which allows you to scrape websites by controlling a web browser.
