@@ -5,6 +5,12 @@
 
 You give it a link of job you applied on Arbetsformedlingen, then it will save the Job Name,Company Name,Job Type,Location,AppliedDate to an excel, also save the html of the job to the folder.
 
+video see:
+
+https://youtu.be/FVPMhePbauQ
+
+
+
 For every job, we must click and open in new tab.
 
 
