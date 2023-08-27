@@ -1,9 +1,16 @@
 # Python-save-applied-job-details-from-Arbetsformedlingen
 
-you give it a link of job you applied on Arbetsformedlingen, then it will save the Job Name,Company Name,Job Type,Location,AppliedDate to an excel, also save the html of the job to the folder.
 
+
+You give it a link of job you applied on Arbetsformedlingen, then it will save the Job Name,Company Name,Job Type,Location,AppliedDate to an excel, also save the html of the job to the folder.
+
+
+How to use:
+first cd to your folder, in my case:
 
 Cd C:\Users\YS\Desktop\Python automatic scraping job
+
+then:
 
 python arbsavejob.py       
 
