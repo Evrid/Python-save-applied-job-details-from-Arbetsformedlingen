@@ -40,7 +40,7 @@ pip install selenium
 Indentation: Python is very sensitive to indentation, and it looks like the indentation is inconsistent. For example, the comment "Send a request to the URL" should be aligned with the code below it, not ahead of it. This might raise an indentation error.
 We can ask ChatGPT to fix the indentation 
 
-Why must use element = WebDriverWait to wait h1
+**Why must use element = WebDriverWait to wait h1**
 
 The discrepancy in the HTML content you're seeing when using print(html_content) is likely due to one of the following reasons:
 Dynamic Content: Modern websites often load content dynamically using JavaScript. This content may not appear in the initial HTML source but will be added to the DOM later on. Your script might capture the HTML before the JavaScript has had a chance to run and update the DOM.
