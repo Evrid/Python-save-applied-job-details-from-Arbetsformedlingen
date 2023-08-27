@@ -29,7 +29,7 @@ Why must use element = WebDriverWait to wait h1
 
 The discrepancy in the HTML content you're seeing when using print(html_content) is likely due to one of the following reasons:
 Dynamic Content: Modern websites often load content dynamically using JavaScript. This content may not appear in the initial HTML source but will be added to the DOM later on. Your script might capture the HTML before the JavaScript has had a chance to run and update the DOM.
-Different Pages: The pages you're scraping might not be consistent in structure. One page may have an <h1> tag, while another does not.
+Different Pages: The pages you're scraping might not be consistent in structure. One page may have an h1 tag, while another does not.
 User-Agent or Other Headers: Sometimes websites deliver different content based on the user-agent or other headers in the HTTP request. If the server identifies your scraper as a non-browser agent, it might serve a simplified or obfuscated version of the page.
 Loading Time: The page's resources (e.g., CSS, JS, images) may not have fully loaded when the html_content is captured. This might result in missing elements.
 AJAX Requests: Some websites load data through AJAX requests. If that's the case, simply grabbing the HTML source won't get you this data.
