@@ -21,7 +21,6 @@ def scrape_and_save_job_info(url, excel_filename='Applied_jobs.xlsx'):
         )
 
         html_content = driver.page_source
-        #print(html_content)
 
         soup = BeautifulSoup(html_content, 'html.parser')
         job_name = soup.find('h1').text if soup.find('h1') else "N/A"
@@ -55,9 +54,20 @@ def scrape_and_save_job_info(url, excel_filename='Applied_jobs.xlsx'):
 
     return new_row
 
-while True:
-    url = input("Please enter the job URL (or type 'exit' to quit): ")
+def get_multiple_links():
+    links = []
+    num_links = int(input("How many job URLs do you want to input? "))
+    
+    for i in range(num_links):
+        link = input(f"Please enter job URL {i+1}: ")
+        links.append(link)
 
+    return links
+
+# Get the list of links
+links = get_multiple_links()
+
+for url in links:
     if url.lower() == 'exit':
         print("Exiting. Goodbye!")
         break
