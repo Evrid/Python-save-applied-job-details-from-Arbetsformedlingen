@@ -6,18 +6,27 @@ Managing job applications can be a daunting task, especially when applying throu
 
 Here is a video demo: 
 
+
 https://youtu.be/FVPMhePbauQ 
 
+
 Open a command prompt and type: 
-> 
+
+
   python --version
-> 
+
+
 If you see the error, Python is not installed or not properly configured.
 
     
 If you haven't installed the libraries, you need to install using:
 
+
+
+
   pip install requests beautifulsoup4 pandas selenium openpyxl
+
+
 
 
 
