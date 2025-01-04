@@ -9,23 +9,19 @@ Here is a video demo:
 
 https://youtu.be/FVPMhePbauQ 
 
+1. Open a command prompt and type:
 
-Open a command prompt and type: 
+    ```bash
+    python --version
+    ```
 
+    If you see an error, Python is not installed or not properly configured.
 
- python --version
----
+2. If you haven't installed the required libraries, use the following command to install them:
 
-If you see the error, Python is not installed or not properly configured.
-
-    
-If you haven't installed the libraries, you need to install using:
-
-
-
-
-  pip install requests beautifulsoup4 pandas selenium openpyxl
----
+    ```bash
+    pip install requests beautifulsoup4 pandas selenium openpyxl
+    ```
 
 
 
