@@ -5,21 +5,21 @@
 Managing job applications can be a daunting task, especially when applying through various platforms. This Python script aims to make your life easier by automating the process of recording the details of jobs you apply for on Arbetsförmedlingen.(https://arbetsformedlingen.se/), Sweden's public employment service. The tool saves essential job details, such as Job Name, Company Name, Job Type, and Location, along with the date of application, to an Excel spreadsheet. Additionally, the HTML content of the job posting is saved locally for your future reference.
 
 Here is a video demo: 
-<br />
+---
 https://youtu.be/FVPMhePbauQ 
-<br />
+---
 Open a command prompt and type: 
-<br />
+---
   python --version
-<br />
+---
 If you see the error, Python is not installed or not properly configured.
 
     
 If you haven't installed the libraries, you need to install using:
-<br />
+---
   pip install requests beautifulsoup4 pandas selenium openpyxl
 
-<br />
+---
 
 
 ## Key Features
